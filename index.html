@@ -1,25 +1,16 @@
 <html>
     <head>
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script>
-          // Requires jQuery!
-jQuery.ajax({
-    url: "https://thales-factory.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/sb53l8/b/24/e73395c53c3b10fde2303f4bf74ffbf6/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-GB&collectorId=c98c8b86",
-    type: "get",
-    cache: true,
-    dataType: "script"
-});
+<script type="text/javascript" src="https://thales-factory.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/sb53l8/b/24/bc54840da492f9ca037209037ef0522a/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-GB&collectorId=c98c8b86"></script>
 
- window.ATL_JQ_PAGE_PROPS =  {
+    <script type="text/javascript">window.ATL_JQ_PAGE_PROPS =  {
 	"triggerFunction": function(showCollectorDialog) {
-		//Requires that jQuery is available!
+		//Requires that jQuery is available! 
 		jQuery("#myCustomTrigger").click(function(e) {
 			e.preventDefault();
 			showCollectorDialog();
 		});
-	}};
+	}};</script>
 
-        </script>
     </head>
     <body>
         <h1>Hello World!</h1>
